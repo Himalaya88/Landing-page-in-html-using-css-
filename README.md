@@ -1,2 +1,106 @@
 # Landing-page-in-html-using-css-
 This is the first task of my internship, the name of its project is landing page
+<html lang="en"><head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Food Landing Page</title> 
+    <style> 
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: #f8f8f8; 
+        } 
+ 
+        .header { 
+            background-color: #FF0000; 
+            color: #fff; 
+            text-align: center; 
+            padding: 20px 0; 
+        } 
+ 
+        .container { 
+            width: 80%; 
+            margin: 0 auto; 
+            text-align: center; 
+            padding-top: 50px; 
+        } 
+ 
+        .feature { 
+            display: flex; 
+            justify-content: space-around; 
+            margin-top: 50px; 
+        } 
+ 
+        .feature-column { 
+            flex: 1; 
+            padding: 55 20px; 
+        } 
+ 
+        h1 { 
+            font-size: 2em; 
+            color: #FFFF00; 
+        } 
+ 
+        h2 { 
+            font-size: 2em; 
+            color: #333; 
+            margin-bottom: 20px; 
+        } 
+ 
+        p { 
+            font-size: 1.2em; 
+            color: #666; 
+            margin-bottom: 20px; 
+        } 
+ 
+        .btn { 
+            display: inline-block; 
+            padding: 10px 20px; 
+            background-color: #007bff; 
+            color: #fff; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            transition: background-color 0.3s ease; 
+        } 
+ 
+        .btn:hover { 
+            background-color: #0056b3; 
+        } 
+ 
+        .food-image { 
+            max-width: 100%; 
+            height: auto; 
+            margin-bottom: 20px; 
+        } 
+    </style> 
+</head> 
+<body> 
+    <div class="header"> 
+        <h1><u><marquee>Delicious Food Delivery</marquee></u></h1> 
+    </div> 
+    <div class="container"> 
+        <img src="C:\Users\HHHH\Pictures\4kfood.jpg" alt="Delicious Food" class="food-image"> 
+        <h2>Order Delicious Food Online</h2> 
+        <p>Get your favorite food delivered straight to your doorstep.</p> 
+        <a href="https://www.swiggy.com/" class="btn">Order Now</a> 
+        <div class="feature"> 
+            <div class="feature-column"> 
+                <img src="C:\Users\HHHH\Pictures\foodmenu.jpg" alt="Feature 1 Icon" width="100"> 
+                <h3>Wide Range of Menu</h3> 
+                <p>Choose from a variety of cuisines and dishes.</p> 
+            </div> 
+            <div class="feature-column"> 
+                <img src="C:\Users\HHHH\Pictures\delivery.jpg" alt="Feature 2 Icon" width="100"> 
+                <h3>Fast Delivery</h3> 
+                <p>Enjoy quick delivery service to your location.</p> 
+            </div> 
+            <div class="feature-column"> 
+                <img src="C:\Users\HHHH\Pictures\quality.jpg" alt="Feature 3 Icon" width="100"> 
+                <h3>Quality Ingredients</h3> 
+                <p>We use fresh and high-quality ingredients for all our dishes.</p> 
+            </div> 
+        </div> 
+    </div> 
+ 
+</body></html>
